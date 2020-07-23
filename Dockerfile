@@ -6,4 +6,4 @@ WORKDIR /app
 RUN pip install -U pip
 RUN pip install -r requirements-dev.txt
 
-ENTRYPOINT [ "gunicorn", "-b", ":8080", "main:app" ]
+ENTRYPOINT [ "gunicorn", "-b", ":5000", "app:app" ]
