@@ -63,7 +63,7 @@ Setting up a Kubernetes cluster is beyond the scope of this README however, `ci-
 
 ## API Reference
 
-The API reference documentation is available [here](https://documenter.getpostman.com/view/10868159/SzfCVS1d?version=latest)
+The API reference documentation is available [here](https://documenter.getpostman.com/view/10868159/SzfCVS1d?version=latest).
 
 ## Testing Suite
 
