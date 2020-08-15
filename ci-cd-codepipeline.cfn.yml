@@ -211,7 +211,7 @@ Resources:
           PolicyDocument:
             Version: 2012-10-17
             Statement:
-              - Resource: "*"
+              - Resource: '*'
                 Effect: Allow
                 Action:
                   - codebuild:StartBuild
@@ -251,25 +251,25 @@ Resources:
                 Effect: Allow
                 Action:
                   - sts:AssumeRole
-              - Resource: "*"
+              - Resource: '*'
                 Effect: Allow
                 Action:
                   - eks:Describe*
-              - Resource: "*"
+              - Resource: '*'
                 Effect: Allow
                 Action:
                   - ssm:GetParameters
-              - Resource: "*"
+              - Resource: '*'
                 Effect: Allow
                 Action:
                   - logs:CreateLogGroup
                   - logs:CreateLogStream
                   - logs:PutLogEvents
-              - Resource: "*"
+              - Resource: '*'
                 Effect: Allow
                 Action:
                   - ecr:GetAuthorizationToken
-              - Resource: "*"
+              - Resource: '*'
                 Effect: Allow
                 Action:
                   - ec2:CreateNetworkInterface
